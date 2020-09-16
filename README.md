@@ -17,7 +17,7 @@ To run the file in Linux\Ubuntu please follow the below commands.
 - Download the oracle Instant Basic client for Linux/Ubuntu from the link (.rpm file).
 [https://www.oracle.com/ie/database/technologies/instant-client/linux-x86-64-downloads.html]
 - to install the .rpm file please follow the below steps for respective systems.
-  - ubuntu: if u don't have alien, please download it with below command and once installed use to run the .rpm file.
+  - ubuntu: if u don't have alien, please download it with below command and once installed it is used to run the .rpm file.
     - ```sudo apt-get install alien```
     - ```sudo alien -i oracle-instantclient19.8-basiclite-19.8.0.0.0-1.x86_64.rpm ```
   - linux or cent os: 
