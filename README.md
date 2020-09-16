@@ -34,7 +34,7 @@ To run the file in Linux\Ubuntu please follow the below commands.
   - ``` python main.py```
 - **While giving api request please pass "UserName":"Test" and "Password":"Password123" in the headers**.
 
-### If there are issues while running the app, please check the ip [http://34.252.45.14/employees] the application is hosted on AWS as well.
+# If there are issues while running the app, please check the ip [http://34.252.45.14/employees] the application is hosted on AWS as well.
 
 
 
