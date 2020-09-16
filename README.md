@@ -1,7 +1,7 @@
 # Running in windows
 To Run the file in windows please follow the below steps:
 - Download the oracle Instant Basic client for windows from the link [https://www.oracle.com/ie/database/technologies/instant-client/winx64-64-downloads.html] , please make sure to chose the correct architecture file 32/64 depending on the system configuration.
-- In the main.py file please change the file location to the place where the unziped file for oracle instant classic is placed. Also please uncoment the line 29 to 32.
+- In the main.py file please change the file location in the line 32 to the place where the unziped file for oracle instant classic is placed. Also please uncoment the line 29 to 32.
 - create python virtual envoirnment and activate it with the below command in CMD (make sure u have python 3.6 or hiegher)
   - ``` python -m venv <NameOfEnvironment>```
   - ```<ProjectEnvFolder>\Scripts\activate```
