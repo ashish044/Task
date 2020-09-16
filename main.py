@@ -26,10 +26,10 @@ import controller.job_title as job_title
 import controller.employee as employee
 #this section below is only required when running on windows devices
 ###############################################################################################
-@app.before_first_request
-def do_something_only_once():
-    import cx_Oracle
-    cx_Oracle.init_oracle_client(lib_dir=r"C:\Users\ashis\Downloads\instantclient-basiclite-windows.x64-19.8.0.0.0dbru\instantclient_19_8")
+#@app.before_first_request
+#def do_something_only_once():
+#    import cx_Oracle
+#    cx_Oracle.init_oracle_client(lib_dir=r"C:\Users\ashis\Downloads\instantclient-basiclite-windows.x64-19.8.0.0.0dbru\instantclient_19_8")
 ###############################################################################################################
 api.add_resource(badge.Badge, "/badges", endpoint="BadgesGetAll")
 api.add_resource(badge.BadgeActive,"/badges/active", endpoint="BadgesActive")
