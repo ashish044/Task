@@ -7,10 +7,10 @@ To Run the file in windows please follow the below steps:
   - ```<ProjectEnvFolder>\Scripts\activate```
 - once the environment is running need to install all the libraries with the help of requirement.txt file and below command.
   - ``` pip install -r requirement.txt```
-- Please change the username and password to connect the oracle instance on the main.py file on line 17 and 18 which was given to candidate (as this ia a public repository that is why it is removed from the code while uploading to git hub.
+- **Please change the username and password to correct cred (given to candidate) on the main.py file on line 17 and 18 to connect the oracle instance (as this ia a public repository that is why it is removed from the code while uploading to git hub**.
 - After doing the above steps run the main.py file with below command.
   - ``` python main.py```
-- While giving api request please pass "UserName":"Test" and "Password":"Password123" in the headers.
+- **While giving api request please pass "UserName":"Test" and "Password":"Password123" in the headers**
 
 # Running in Linux
 To run the file in Linux\Ubuntu please follow the below commands.
@@ -29,10 +29,10 @@ To run the file in Linux\Ubuntu please follow the below commands.
   - ```source /<folder of virtual env>/bin/activate```
 - once the environment is running need to install all the libraries with the help of requirement.txt file and below command.
   - ``` pip install -r requirement.txt```
-- Please change the username and password to connect the oracle instance on the main.py file on line 17 and 18 which was given to candidate (as this ia a public repository that is why it is removed from the code while uploading to git hub.
+- **Please change the username and password to correct cred (given to candidate) on the main.py file on line 17 and 18 to connect the oracle instance (as this ia a public repository that is why it is removed from the code while uploading to git hub**.
 - After doing the above steps run the main.py file with below command.
   - ``` python main.py```
-- While giving api request please pass "UserName":"Test" and "Password":"Password123" in the headers.
+- **While giving api request please pass "UserName":"Test" and "Password":"Password123" in the headers**.
 
 ### If there are issues while running the app, please check the ip [http://34.252.45.14/employees] the application is hosted on AWS as well.
 
