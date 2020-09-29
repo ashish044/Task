@@ -16,8 +16,12 @@ class Employees(Resource):
             #checking for the parmas 
             DeptName=request.args.get('department_name', None)
             #getting UserName and Password from the header of the request
-            UserName=request.headers['UserName']
-            Password=request.headers['Password']
+            try:
+                UserName=request.headers['UserName']
+                Password=request.headers['Password']
+            except:
+                return "Please Provide Username and Password given in the github link with request headers to access the api", 401
+
             #checking Username and Password
             if UserName !='Test' or Password !='Password123':
                 return "UserName or Password Incorrect", 401
@@ -68,8 +72,11 @@ class GetActiveEmployee(Resource):
     def get(Self):
         try:
             #checking username and password from the headerof the request
-            UserName=request.headers['UserName']
-            Password=request.headers['Password']
+            try:
+                UserName=request.headers['UserName']
+                Password=request.headers['Password']
+            except:
+                return "Please Provide Username and Password given in the github link with request headers to access the api", 401
             if UserName !='Test' or Password !='Password123':
                 return "UserName or Password Incorrect", 401
             data=EmployeeModel.ActiveEmployee()

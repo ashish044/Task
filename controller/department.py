@@ -12,8 +12,11 @@ class Departments(Resource):
     def get(self):
         try:
             #Checking the Username and Password Provided in the request
-            UserName=request.headers['UserName']
-            Password=request.headers['Password']
+            try:
+                UserName=request.headers['UserName']
+                Password=request.headers['Password']
+            except:
+                return "Please Provide Username and Password given in the github link with request headers to access the api", 401
             if UserName !='Test' or Password !='Password123':
                 return "UserName or Password Incorrect", 401
             data=DepartmentModel.DepartmentAll()
